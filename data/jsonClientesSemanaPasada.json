@@ -1,0 +1,29 @@
+[
+    {
+      "nombre": "Francisco",
+      "apellido": "Lagorio",
+      "empresa": "ING-COR",
+      "profesion":"Ingeniero",
+      "dia": "lunes",
+      "hora": "15",
+      "consulta": "Necesito calcular una viga"
+    },
+    {
+        "nombre": "Julian",
+        "apellido": "Ramirez",
+        "empresa": "Kar Distribuidora",
+        "profesion":"Distribuidor",
+        "dia": "miercoles",
+        "hora": "17",
+        "consulta": "Ampliacion de negocio"
+    },
+    {
+        "nombre": "Franco",
+        "apellido": "Rodriguez",
+        "empresa": "NN constructora",
+        "profesion":"Estudiante",
+        "dia": "viernes",
+        "hora": "16",
+        "consulta": "Necesito arreglar una pared"
+    }
+]

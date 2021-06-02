@@ -1,0 +1,231 @@
+body {
+    font-family: "Merriweather Sans";
+}
+
+#login {
+    height: 300px;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login input {
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+}
+
+#login button {
+    margin-top: 10px;
+}
+
+form {
+    padding: 20px;
+    border-radius: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 215px;
+}
+
+.divForm {
+    padding-top: 40px;
+}
+
+form label {
+    width: 100px;
+    text-align: start;
+    padding: 10px 0;
+    padding-right: 10px;
+
+    font-family: "Merriweather Sans";
+}
+
+form input {
+    background-color: #655346;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+#labelConsulta {
+    padding-top: 10px;
+}
+
+form textarea {
+    background-color: #655346;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    padding: 5px;
+    vertical-align: top;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #655346 inset !important;
+    -webkit-text-fill-color: white !important;
+}
+
+.textoAjax {
+    display: none;
+    color: white;
+    border-radius: 10px 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.textoAjax p {
+    text-align: center;
+    margin: auto;
+    background-color: #f4623a;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px 10px;
+}
+
+.divMensaje {
+    display: none;
+    background-color: #e67556d8;
+    color: white;
+    border-radius: 10px 10px;
+    margin: 30px 0px;
+    padding: 10px;
+}
+
+.buttonsBox {
+    margin-top: 50px;
+}
+
+.boxDia,
+.boxHorario {
+    max-width: 250px;
+    position: relative;
+    display: inline;
+}
+
+.boxDia select,
+.boxHorario select {
+    /* appearance: none; */
+    background-color: #655346;
+    color: white;
+    padding: 3px;
+
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 10px;
+}
+
+.boxDia select:hover,
+.boxHorario select:hover {
+    background-color: #978070;
+}
+
+.boxHorario select-items {
+    padding: 100px;
+}
+
+#botonIniciarSesion {
+    position: relative;
+}
+
+#login {
+    background-color: #ffffff52;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    position: absolute;
+
+    transform: translate(-25%, 35px);
+
+    box-shadow: 0px 0px 66px 4px rgba(82, 69, 59, 0.75);
+    -webkit-box-shadow: 0px 0px 66px 4px rgba(82, 69, 59, 0.75);
+    -moz-box-shadow: 0px 0px 66px 4px rgba(82, 69, 59, 0.75);
+}
+
+#login input {
+    background-color: #655346;
+    color: white;
+    border-radius: 10px;
+}
+
+#login button {
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.footerEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+footer {
+    background: linear-gradient(0deg, rgba(221, 217, 218, 1) 36%, rgba(255, 255, 255, 1) 100%);
+}
+
+footer iframe {
+    border: 0;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#clientes p {
+    padding: 10px;
+}
+
+#clientes #ajaxButton {
+    margin: 30px 0;
+}
+
+#clientes {
+    text-align: center;
+}
+
+.mensajeAjax {
+    text-align: start;
+}
+
+#clientes {
+    background-color: hsla(0, 0%, 100%, 0.411);
+    color: black;
+    padding-bottom: 30px;
+}
+#clientesSemanaPasada p,
+#clientesSemanaActual p {
+    padding-left: 50px;
+}
+#clientesSemanaPasada .tituloClientes,
+#clientesSemanaActual .tituloClientes {
+    color: white;
+    padding-left: 10px;
+    display: inline-block;
+    background-color: #655346;
+    border-radius: 10px 10px;
+}
+
+#ajaxButton {
+    border-radius: 10px 10px;
+}
